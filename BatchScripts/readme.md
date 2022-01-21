@@ -1,7 +1,7 @@
-#¡Ayuda!
+# ¡Ayuda!
 Aquí encontrarás alguna información que puede ayudarte con tus scripts.
 
-##Pequeños tips
+## Pequeños tips
 
 Para **comparar números** hay que utilizar estos operadores:
 - EQU - equal
