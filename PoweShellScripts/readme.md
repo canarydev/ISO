@@ -16,3 +16,5 @@ Para **comparar números** hay que utilizar estos operadores:
 Para **comparar cadenas de caracteres** hay que utilizar estos operadores:
 - Like - Igual
 - NotLike - No igual
+ 
+> **Ejemplo:** Get-ChildItem -File | Where-Object Name -NotLike p*
