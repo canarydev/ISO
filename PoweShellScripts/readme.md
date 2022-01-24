@@ -11,4 +11,4 @@ Para **comparar** hay que utilizar estos operadores:
 - GT  - greater than
 - GE - greater than or equal
 
-> **Ejemplo:** Get-ChildItem -Attributes !Directory | Where-Object Length -LT 1MB
+> **Ejemplo:** Get-ChildItem -File | Where-Object Length -LT 1MB
