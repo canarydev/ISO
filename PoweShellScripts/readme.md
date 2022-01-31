@@ -17,8 +17,14 @@ El **$()** evaluará lo que esté en el interior y **$args[0]** es el primer ele
 > **Ejemplo de salida con $args[0]:** Pedro Andrés Juan[0]"
 > **Ejemplo de salida con $($args[0]):** Pedro"
 
-## Where-Object
+## Variables
+Una variable puede ser creada de **dos maneras:**
+ - $nombre = "valor"
+ - New-Variable -Name nombre -Value "valor" -Option ReadOnly
 
+Con el primer comando creamos una nueva variable de manera implícita y con el segundo, utilizando un **cmdlet** y de manera explícita. Además, los argumentos Value y Option pueden omitirse. En el segundo caso, hemos creado una variable que no es modificable. Esto se conoce como **constante**.
+
+## Where-Object
 Para **comparar números** hay que utilizar estos **operadores** de comparación:
 - EQ - equal
 - NE - not equal
