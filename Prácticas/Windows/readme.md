@@ -11,4 +11,4 @@ Vista ya la creación de scripts (básicos), tanto en Batch como en PowerShell, 
 - Se deberán realizar los cambios necesarios para que al usuario se le cree el perfil utilizando la imagen de empresa, en la carpeta de usuario se incluyan algunos documentos de la empresa (pueden crearse PDF inventados), e inicien por defecto en la web de la empresa.
 - Crear un usuario llamado Antonio con contraseña empleado1. Crear el grupo empleados y agregar a Antonio.
 - Antonio sólo debe tener acceso a la máquina Lunes, Martes, Jueves y Viernes, de 16:00 a 22:00.
- > Nota: Como estamos usando Windows XP hay muchos programas que ya no ofrecen soporte. No podrás ni consultar internet, pero no te preocupes. Existen alternativas a Chrome, IExplorer o Mozilla que siguen funcionando para XP. Utiliza Mypal como explorador y PDFLitle como lector PDF.
+ > Nota: Como estamos usando Windows XP hay muchos programas que ya no ofrecen soporte. No podrás ni consultar internet, pero no te preocupes. Existen alternativas a Chrome, IExplorer o Mozilla que siguen funcionando para XP. **Utiliza Mypal** como explorador y **PDFLitle** como lector PDF.
