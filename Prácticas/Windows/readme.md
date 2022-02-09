@@ -5,6 +5,7 @@ Vista ya la creación de scripts (básicos), tanto en Batch como en PowerShell, 
 ## Tarea 1 - 08/02/2022:
 - Crear una nueva máquina virtual utilizando la imagen de Windows XP proporcionada en clase, con dos discos duros virtuales, uno de 10 Gb, otro de 2 Gb y 2Gb de RAM.
  > Para instalar Windows usa esta clave: KV7RD-6TM6R-973D6-X3F4T-P4M93
+ > Utiliza las Guest-Adittions para que puedas trabajar mejor.
 - Elegir una empresa y utilizar la imagen corporativa de la misma para personalizar el SO.
  > En principio bastará con entrar en C:\Documents and Settings\All Users\Datos de programa\Microsoft\User Account Pictures, borrar todas las imágenes y colocar sólo las imágenes que queramos que puedan usar nuestros usuarios.
 - Se deberán realizar los cambios necesarios para que al usuario se le cree el perfil utilizando la imagen de empresa, en la carpeta de usuario se incluyan algunos documentos de la empresa (pueden crearse PDF inventados), e inicien por defecto en la web de la empresa.
