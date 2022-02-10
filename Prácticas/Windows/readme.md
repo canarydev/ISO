@@ -18,6 +18,6 @@ Vista ya la creación de scripts (básicos), tanto en Batch como en PowerShell, 
 - Crear un directorio llamado Scripts en la carpeta de tu usuario administrador y añadirlo al path.
  > Para añadir una ruta al Path en Windows XP es sencillo. Tienes que hacer click derecho en Mi PC, darle a propiedades y a editar variables de entorno. Ahí verás una ventana parecida a esto:  
   ![](https://articles-images.sftcdn.net/wp-content/uploads/sites/2/2008/12/variableswin.png)
-  Si añades en las variables de usuario |Path|C:\"Documents and Settings"\Usuario\Scripts| tendrás incluída esta ruta al Path y podrás ejecutar tus Scripts desde cualquier lugar.
+  Si añades en las variables de usuario `Path || C:\"Documents and Settings"\Usuario\Scripts` tendrás incluída esta ruta al Path y podrás ejecutar tus Scripts desde cualquier lugar.
 - Crear un script llamado **deleteUser.bat** que se guardará en la carpeta Scripts que has creado. Este script se invoca con **deleteUser.bat usuario**.
 - 
