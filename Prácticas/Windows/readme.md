@@ -22,5 +22,6 @@ Vista ya la creación de scripts (básicos), tanto en Batch como en PowerShell, 
 - Crear un script llamado **deleteUser.bat** que se guardará en la carpeta Scripts que has creado. Este script se invoca con **deleteUser.bat usuario** y tiene como cometido borrar al usuario y su carpeta personal.
 > Voy a darte el código que puedes utilizar 😸 :  
   ```
-  En construcción 🚧👷. Inténtalo tú primero, primoh! 🇮🇨
+  En construcción 🚧👷. Inténtalo tú primero, primoh!
+  Esto se desbloqueará el 11/03/2022 
   ```
