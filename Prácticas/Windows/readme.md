@@ -12,3 +12,10 @@ Vista ya la creación de scripts (básicos), tanto en Batch como en PowerShell, 
 - Crear un usuario llamado Antonio con contraseña empleado1. Crear el grupo empleados y agregar a Antonio.
 - Antonio sólo debe tener acceso a la máquina Lunes, Martes, Jueves y Viernes, de 16:00 a 22:00.
  > Nota: Como estamos usando Windows XP hay muchos programas que ya no ofrecen soporte. No podrás ni consultar internet, pero no te preocupes. Existen alternativas a Chrome, IExplorer o Mozilla que siguen funcionando para XP. **Utiliza Mypal** como explorador y **PDFLitle** como lector PDF.
+
+## Tarea 2 - 10/02/2022:
+- Eliminar los elementos innecesarios del menú de inicio. Si puedes ocultar la carpeta Inicio sería ya para nota (no deja borrarla el SO).
+- Crear un directorio llamado Scripts en la carpeta de tu usuario administrador y añadirlo al path.
+ > Para añadir una ruta al Path en Windows XP es sencillo. Tienes que hacer click derecho en Mi PC, darle a propiedades y a editar variables de entorno. Ahí verás una ventana parecida a esto: ![](https://articles-images.sftcdn.net/wp-content/uploads/sites/2/2008/12/variableswin.png)
+- Crear un script llamado **deleteUser.bat** que se guardará en la carpeta Scripts que has creado. Este script se invoca con **deleteUser.bat usuario**.
+- 
