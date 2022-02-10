@@ -16,7 +16,7 @@ Vista ya la creación de scripts (básicos), tanto en Batch como en PowerShell, 
 ## Tarea 2 - 10/02/2022:
 - Eliminar los elementos innecesarios del menú de inicio. Si puedes ocultar la carpeta Inicio sería ya para nota (no deja borrarla el SO).
 - Crear un directorio llamado Scripts en la carpeta de tu usuario administrador y añadirlo al path.
- > Para añadir una ruta al Path en Windows XP es sencillo. Tienes que hacer click derecho en Mi PC, darle a propiedades y a editar variables de entorno. Ahí verás una ventana parecida a esto:
-![](https://articles-images.sftcdn.net/wp-content/uploads/sites/2/2008/12/variableswin.png)
+ > Para añadir una ruta al Path en Windows XP es sencillo. Tienes que hacer click derecho en Mi PC, darle a propiedades y a editar variables de entorno. Ahí verás una ventana parecida a esto:  
+  ![](https://articles-images.sftcdn.net/wp-content/uploads/sites/2/2008/12/variableswin.png)
 - Crear un script llamado **deleteUser.bat** que se guardará en la carpeta Scripts que has creado. Este script se invoca con **deleteUser.bat usuario**.
 - 
