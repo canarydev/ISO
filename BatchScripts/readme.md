@@ -2,15 +2,14 @@
 Aquí encontrarás alguna información que puede ayudarte con tus scripts.
 
 ##FOR
-Es un bloque que permite realizar acciones repetitivas. Para ejecutar un FOR necesitamos un **iterador**. El iterador es una variable que sólo existirá dentro del FOR y que irá tomando los valores de la lista que le pasemos al FOR:
-> Imaginemos que hemos ejecutado un script llamado `printer.bat` que lo que hará es imprimir todos los parámetros que hallamos pasado. Imaginemos que hemos escrito en CMD `printer 1 a 2 manzanas`. Si el contenido de printer.bat es ```
+```
 @echo off
 FOR %%i IN (%*) DO (
    echo %%i
 )
 ```
-  
-
+Es un bloque que permite realizar acciones repetitivas. Para ejecutar un FOR necesitamos un **iterador**. El iterador es una variable que sólo existirá dentro del FOR y que irá tomando los valores de la lista que le pasemos al FOR:
+> Imaginemos que hemos ejecutado un script llamado `printer.bat` que lo que hará es imprimir todos los parámetros que hallamos pasado. Imaginemos que hemos escrito en CMD `printer 1 a 2 manzanas`. Si el contenido de printer.bat es el código que tenemos arriba, la consola de comandos nos devolverá 1, a, 2 y manzanas, cada una de ellas en una línea diferente.
 
 ## IF
 Para **comparar números** hay que utilizar estos operadores:
