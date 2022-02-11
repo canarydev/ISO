@@ -29,6 +29,7 @@ goto deleteConfirmation
 
 :insertUser
 set /P user="Indique el nombre de usuario que desea eliminar: "
+if [user]==[] goto end
 
 :deleteConfirmation
 echo Va a eliminar al usuario %user%. ¨Est  seguro?
