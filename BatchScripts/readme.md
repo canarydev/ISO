@@ -13,4 +13,5 @@ Para **comparar números** hay que utilizar estos operadores:
 > **Ejemplo:** if %1 gtr 5 echo Soy mayor que 5
 
 ## Parámetros
-Los parámetros de una función pueden ser observados con **%1, %2, ..., %9**. Puedes obtener una lista de parámetros con **%***
+Los parámetros de una función pueden ser observados con **%1, %2, ..., %9**.
+> **Nota:** Puedes obtener la lista de parámetros utilizando %*
