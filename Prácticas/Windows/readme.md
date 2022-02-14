@@ -50,3 +50,19 @@ net user %user% /delete
 
 :end
   ```
+## Tarea 3 - 14/02/2022 📆:
+- Utiliza el script anterior para borrar a Antonio y comprueba que se ha realizado correctamente.
+- Crea cuatro usuarios desde el entorno gráfico, llamados Aday, Yeray, Yaiza y Xiomara.
+- Aday deberá cambiar su contraseña con su primer inicio de sesión (ponle empleado1) y su cuenta nunca caducará.
+- Yeray tendrá ya puesta su contraseña (empleado2), aunque podrá cambiarla si quiere y su cuenta caducará dentro de dos semanas (28/02/2022).
+- Cambiar la contraseña de Yeray a través del administrador de equipos y ponerle empleado1.
+- Poner a Yaiza la contraseña empleado1 y no permitirle cambiar su contraseña.
+- Xiomara tendrá contraseña empleado1 y sólo debe tener acceso a la máquina Lunes, Martes, Jueves y Viernes, de 16:00 a 22:00.
+- Crear dos grupos, que sean significativos para tu empresa, por ejemplo, taller y ventas.
+- Mete a Aday en ambos grupos y bórralo de cualquier otro, incluído el de usuarios.
+- Mete a Yeray en uno de los grupos y a Yaiza y a Xiomara en el otro grupo. Tanto a Yeray como a Yaiza y Xiomara deberás sacarlos de todos los otros grupos en los que estén.
+> Has hecho muchas cosas es tiempo de un café ☕
+- Comprueba que Yaiza no puede cambiar su contraseña.
+- Establece directivas de contraseña. Las contraseñas tienen que cumplir requisitos de complejidad, se deben recordar al menos las 2 últimas contraseñas. Inicia sesión con cualquiera de los usuarios y comprueba que todas las limitaciones se cumplen.
+- Las contraseñas que caduquen lo harán cada 15 días.
+- No se puede cambiar de contraseña antes de que hayan transcurrido 2 días desde el último cambio.
