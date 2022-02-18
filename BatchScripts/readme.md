@@ -2,7 +2,6 @@
 Aquí encontrarás alguna información que puede ayudarte con tus scripts.
 
 ##Archivos
-
 Para **recorrer un archivo**
 ```
 for /f %%i in ("file.txt") do (
