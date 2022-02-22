@@ -43,13 +43,9 @@ Para **comparar números** hay que utilizar estos operadores:
 - GEQ - greater than or equal
 
 Para **comparar strings**:
-- `` - 
-- NEQ - not equal
-- LSS - less than
-- LEQ - less than or equal
-- GTR - greater than
-- GEQ - greater than or equal
-> **Ejemplo:** if %1 gtr 5 echo Soy mayor que 5
+- `if [%variable%]==[]` - Comprueba si `%variable%' está vacía. **No permite varias palabras o espacios en blanco.**
+- `if "%variable%"==""` - Comprueba si `%variable%' está vacía. Esto es **sólo** indicado **si vas a permitir** que la String **tenga varias palabras o espacios en blanco**.
+- `if %variable%==Hola` - Comprueba si `%variable%` tiene el valor `Hola`.
 
 ## Parámetros
 Los parámetros de una función pueden ser observados con **%1, %2, ..., %9**.
