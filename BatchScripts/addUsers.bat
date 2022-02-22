@@ -13,6 +13,7 @@ set /p alias="Introduzca alias: "
 if [%alias%]==[] goto addUser
 set /p name="Introduzca nombre completo: "
 if "%name%"=="" set name= 
+rem En la línea anterior se ha puesto un espacio tras el igual, para que en el archivo escriba un espacio en caso de no indicar un nombre.
 set /p password="Introduzca password (Random por defecto): "
 if [%password%]==[] set password=Random
 set /p expires="Introduzca fecha de expiración de la cuenta (Never por defecto): "
