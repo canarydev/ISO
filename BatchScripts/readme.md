@@ -16,7 +16,6 @@ Para **comprobar si un archivo está vacío**:
 for /f %%i in ("file.txt") do set size=%%~zi
 if %size% gtr 0 echo Not empty
 ```
-
 Para recorrer un archivo **tipo csv**:
 ```
 for /f "usebackq skip=1 tokens=1-7 delims=|" %%a in ("file.csv") do (
@@ -43,6 +42,13 @@ Para **comparar números** hay que utilizar estos operadores:
 - GTR - greater than
 - GEQ - greater than or equal
 
+Para **comparar strings**:
+- `` - 
+- NEQ - not equal
+- LSS - less than
+- LEQ - less than or equal
+- GTR - greater than
+- GEQ - greater than or equal
 > **Ejemplo:** if %1 gtr 5 echo Soy mayor que 5
 
 ## Parámetros
