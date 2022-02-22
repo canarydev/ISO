@@ -43,8 +43,8 @@ Para **comparar números** hay que utilizar estos operadores:
 - GEQ - greater than or equal
 
 Para **comparar strings**:
-- `if [%variable%]==[]` - Comprueba si `%variable%' está vacía. **No permite varias palabras o espacios en blanco.**
-- `if "%variable%"==""` - Comprueba si `%variable%' está vacía. Esto es **sólo** indicado **si vas a permitir** que la String **tenga varias palabras o espacios en blanco**.
+- `if [%variable%]==[]` - Comprueba si `%variable%` está vacía. **No permite varias palabras o espacios en blanco.**
+- `if "%variable%"==""` - Comprueba si `%variable%` está vacía. Esto es **sólo** indicado **si vas a permitir** que la String **tenga varias palabras o espacios en blanco**.
 - `if %variable%==Hola` - Comprueba si `%variable%` tiene el valor `Hola`.
 
 ## Parámetros
