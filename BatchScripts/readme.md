@@ -2,6 +2,10 @@
 Aquí encontrarás alguna información que puede ayudarte con tus scripts.
 
 ## Archivos
+Para **comprobar si existe un archivo** y si no, **crearlo**:
+```
+if not exist "prueba.txt" type nul > "prueba.txt"
+```
 Para **recorrer un archivo**
 ```
 for /f %%i in ("file.txt") do (
