@@ -81,3 +81,14 @@ Debes de crear un script llamado `addusers.bat`, el cual hará lo siguiente:
 - Permitir el **cambio de contraseña** es **opcional**. Si no se introduce nada el valor por defecto será **Yes**.
 - La **limitación horaria** es **opcional**. Si no se introduce ninguna limitación el valor por defecto será **All**.
 - Los **grupos** son **opcionales**. Deben ir **separados por comas**.
+- Debes preguntar si se desea añadir un nuevo usuario y si no, terminar.
+- Probar que funciona utilizando personajes de Star Wars. Si no conoces ningún personaje investiga por internet 👊.
+> Ten cuidado, borra todas las variables justo antes de preguntar si se desea añadir un nuevo usuario, si no, si no introduces nada podrías copiar el contenido del usuario anterior para esa variable.
+
+## Tarea 5 - 22/02/2022 📆:
+Ahora debes dar el paso definitivo (hacia el abismo no, hacia delante) para convertirte en un crack de la administración de usuarios. Debes de crear un nuevo script llamado `createUsers.bat`, el cual se encargará de crear a los usuarios que hemos añadido en el fichero `users.csv`, atendiendo a los valores que hemos almacenado para cada uno de ellos.
+> Aquí no hay limitaciones, sólo que lo hagas bien. Para ello te daré algunos consejos.
+> Mírate lo que he ido poniendo en la wiki. Casi todo está ahí (el 90%).
+> No intentes hacerlo todo de golpe. Es mejor ir pasito a pasito. 1º crear el usuario, 2º añadir una fecha de expiración...
+> Si consigues crear los grupos a la vez que se ejecuta este script te daré una buena calificación.
+> Si consigues guardar sólo las frases `La contraseña para Leia es: 3Y80@Dqz`, sin que guarde espacios en blanco u otras frases, te daré una calificación extraordinaria.
