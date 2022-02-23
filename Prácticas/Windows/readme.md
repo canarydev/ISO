@@ -70,4 +70,14 @@ net user %user% /delete
 ## Tarea 4 - 18/02/2022 📆:
 Es el momento de que muestres de qué eres capaz. Debes desprenderte de esos usuarios que te han estado acompañando durante largo tiempo (o no) Tienes que borrar a todos los usuarios que has creado; Antonio, Yeray, Yaiza y Xiomara, usando el script que tienes más arriba, el de `deleteUser.bat`:skull_and_crossbones:. 
 **Una vez los hayas eliminado a todos**, comienza esta nueva tarea. 
-
+### Creando `addusers.bat`:
+Debes de crear un script llamado `addusers.bat`, el cual hará lo siguiente:
+- En caso de no existir, creará un fichero en la carpeta Scripts llamado `users.csv`, cuya cabecera será `alias*fullname*password*expires*passwordChg*times*groups`. En caso de que ya existiese `users.csv`pero no contenga nada, se deberá añadir la cabecera mencionada antes.
+- Se pedirá al usuario por pantalla que introduzca un alias, un nombre completo, una contraseña, si existe fecha de expiración de la cuenta, si el usuario puede cambiar de contraseña, si tiene limitaciones horarias y los grupos a los que pertenecerá el usuario.
+- El **alias** es **obligatorio**, si no se introduce ningún alias, **debe de volver a pedirlo** nuevamente.
+- El **nombre completo** es **opcional** y si no se introduce ninguno, se añadirá un **espacio en blanco**.
+- La **contraseña** es **opcional**. Si no se introduce ninguna contraseña el valor por defecto será **Random**.
+- La **fecha de expiración** es opcional. Si no se introduce ninguna fecha el valor por defecto será **Never**.
+- Permitir el **cambio de contraseña** es **opcional**. Si no se introduce nada el valor por defecto será **Yes**.
+- La **limitación horaria** es **opcional**. Si no se introduce ninguna limitación el valor por defecto será **All**.
+- Los **grupos** son **opcionales**. Deben ir **separados por comas**.
