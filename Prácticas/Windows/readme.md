@@ -68,7 +68,6 @@ net user %user% /delete
 - No se puede cambiar de contraseña antes de que hayan transcurrido 2 días desde el último cambio.
 
 ## Tarea 4 - 18/02/2022 📆:
-Es el momento de que muestres de qué eres capaz. Tienes que borrar a todos los usuarios que has creado; Antonio, Yeray, Yaiza y Xiomara, usando el script que tienes más arriba, el de `deleteUser.bat`.
-Una vez los hayas eliminado a todos, comienza esta nueva tarea. :fist:
-<img align="right" width="100" height="100" src="http://www.fillmurray.com/100/100">
+Es el momento de que muestres de qué eres capaz. Tienes que borrar a todos los usuarios que has creado; Antonio, Yeray, Yaiza y Xiomara, usando el script que tienes más arriba, el de `deleteUser.bat`. 
+**Una vez los hayas eliminado a todos**, comienza esta nueva tarea. 
 
