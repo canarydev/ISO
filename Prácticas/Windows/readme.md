@@ -66,3 +66,6 @@ net user %user% /delete
 - Establece directivas de contraseña. Las contraseñas tienen que cumplir requisitos de complejidad, se deben recordar al menos las 2 últimas contraseñas. Inicia sesión con cualquiera de los usuarios y comprueba que todas las limitaciones se cumplen.
 - Las contraseñas que caduquen lo harán cada 15 días.
 - No se puede cambiar de contraseña antes de que hayan transcurrido 2 días desde el último cambio.
+
+## Tarea 4 - 18/02/2022 📆:
+Es el momento de que muestres de qué eres capaz 🇮🇨
