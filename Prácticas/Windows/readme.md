@@ -87,8 +87,11 @@ Debes de crear un script llamado `addusers.bat`, el cual hará lo siguiente:
 
 ## Tarea 5 - 22/02/2022 📆:
 Ahora debes dar el paso definitivo (hacia el abismo no, hacia delante) para convertirte en un crack de la administración de usuarios. Debes de crear un nuevo script llamado `createUsers.bat`, el cual se encargará de crear a los usuarios que hemos añadido en el fichero `users.csv`, atendiendo a los valores que hemos almacenado para cada uno de ellos.
-> Aquí no hay limitaciones, sólo que lo hagas bien. Para ello te daré algunos consejos.
-> Mírate lo que he ido poniendo en la wiki. Casi todo está ahí (el 90%).
-> No intentes hacerlo todo de golpe. Es mejor ir pasito a pasito. 1º crear el usuario, 2º añadir una fecha de expiración...
-> Si consigues crear los grupos a la vez que se ejecuta este script te daré una buena calificación.
-> Si consigues guardar sólo las frases `La contraseña para Leia es: 3Y80@Dqz`, sin que guarde espacios en blanco u otras frases, te daré una calificación extraordinaria.
+> Te daré las claves y truquitos que debes de seguir para hacer el ejercicio correctamente.
+- En primer lugar, deberías de crear una variable `file`que contenga la ruta relativa (usando `%userprofile%`) para acceder al archivo `users.csv`.
+- Luego, apoyándote en los apuntes de Batch, lee cómo puedes recorrer un archivo .csv 🤓
+- Una vez comiences a recorrer el .csv, separa cada problema. Ve paso a paso. 1º crear el usuario, 2º añadir un fullname, 3º añadir una fecha de expiración...
+- Casi todo se puede resolver con IF's.
+> No intentes hacerlo todo de golpe. Créeme que así no funciona. En `users.csv` crea sólo 2 usuarios, uno con contraseña random y el otro con una contraseña elegida por ti.
+- Si consigues crear los grupos a la vez que se ejecuta este script te daré una buena calificación.
+- Si consigues guardar sólo las frases `La contraseña para X es: XXXXXX`, sin que guarde espacios en blanco u otras frases, te daré una calificación extraordinaria.
