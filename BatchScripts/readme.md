@@ -27,7 +27,7 @@ Para **buscar coincidencias dentro de un archivo**:
 ```
 findstr /i /c:"PalabraABuscar" archivos
 ```
-> /I nos permite buscar sin importar las mayúsculas minúsculas. /C permite buscar esa palabra en el/los archivos que se indiquen.
+> /i nos permite buscar sin importar las mayúsculas minúsculas. /c permite buscar esa palabra en el/los archivos que se indiquen.
 ## Usuarios
 Para **crear un usuario** la forma más básica es escribiendo:
 ```
