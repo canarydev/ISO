@@ -23,8 +23,11 @@ for /f "usebackq skip=1 tokens=1-7 delims=," %%a in ("file.csv") do (
 )
 ```
 > En este ejemplo, al poner 'for /f' estamos indicando que vamos a recorrer un archivo. 'skip=1' nos permite saltar una línea, por lo que no leeremos la primera línea. Con 'delimns=,' decimos que el delimitador es **,** y con 'tokens=1-7' que son en total 7 tokens y van desde **%%a** hasta **%%g**
-
-
+Para **buscar coincidencias dentro de un archivo**:
+```
+findstr /i /c:"PalabraABuscar" archivos
+```
+> /I nos permite buscar sin importar las mayúsculas minúsculas. /C permite buscar esa palabra en el/los archivos que se indiquen.
 ## Usuarios
 Para **crear un usuario** la forma más básica es escribiendo:
 ```
