@@ -65,4 +65,4 @@ Los parámetros de una función pueden ser observados con **%1, %2, ..., %9**.
 
 ## &&
 En ocasiones queremos que cuando se haya realizado una acción de forma satisfactoria, se ejecute algo de código. Eso lo podemos lograr con **&&**
-> **Ejemplo:** findstr /i /c:hola hola.txt > Nul && echo He encontrado lo que buscabas!
+> **Ejemplo:** `findstr /i /c:hola hola.txt > Nul && echo He encontrado lo que buscabas!`
