@@ -12,6 +12,11 @@ Para **recorrer un archivo**
 for /f %%i in ("file.txt") do (
 )
 ```
+Para **recorrer todos los archivos del directorio actual**
+```
+for /f %%i in (*) do (
+)
+```
 Para **comprobar si un archivo está vacío**:
 ```
 for /f %%i in ("file.txt") do set size=%%~zi
