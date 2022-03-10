@@ -40,3 +40,6 @@ Para **comparar cadenas de caracteres** hay que utilizar estos otros operadores:
 - NotLike - No igual
  
 > **Ejemplo:** Get-ChildItem -File | Where-Object Name -NotLike p*
+
+## Archivos ocultos
+Cuando quieras mostrar todos los archivos, incluyendo los archivos ocultos, utiliza la opción `Get-ChildItem -Force`.
