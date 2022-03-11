@@ -14,7 +14,7 @@ for /f %%i in ("file.txt") do (
 ```
 Para **recorrer todos los archivos del directorio actual**
 ```
-for /f %%i in (*) do (
+for %%i in (*) do (
 )
 ```
 Para **comprobar si un archivo está vacío**:
