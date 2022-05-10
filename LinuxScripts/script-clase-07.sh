@@ -8,12 +8,12 @@ output=$2
 
 if [[ -f "$input" ]]
 then
-    sorted=$(sort $input | uniq -c)
+    sortedAndUnique=$(sort $input | uniq -c)
     if [[ "$output" != "" ]]
     then
-        echo $sorted > $output
+        echo $sortedAndUnique > $output
     else
-        echo $sorted
+        echo $sortedAndUnique
     fi
     exit 0
 else
