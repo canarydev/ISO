@@ -40,7 +40,6 @@ Para **crear un usuario** la forma más básica es escribiendo:
 net user alias /add
 ```
 
-
 ## FOR
 ```
 FOR %%i IN (%*) DO (
