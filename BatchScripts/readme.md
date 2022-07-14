@@ -83,9 +83,7 @@ Para añadir un nuevo comando (a partir de otros existentes) hay múltiples form
 
 > Veamos un ejemplo sencillo; programar un apagado.
 La orden para programar un apagado del equipo es `shutdown -s -t TIEMPO` donde el tiempo se escribe en segundos.
-
 Por ejemplo, `shutdown -s -t 1800` apagará el ordenador dentro de media hora.
-
 Si deseo crear un comando llamado `apagar` al que yo pueda pasarle un determinado número de segundos y, una vez transcurrido ese tiempo apague el ordenador, bastará con crear el archivo `apagar.bat` dentro de system32 e introducir el script que me permitiese apagar el equipo al yo hacer la llamada `apagar 1800` en CMD.
 
 
