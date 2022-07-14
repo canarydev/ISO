@@ -65,10 +65,25 @@ Para **comparar strings**:
 - `if "%variable%"==""` - Comprueba si `%variable%` está vacía. Esto es **sólo** indicado **si vas a permitir** que la String **tenga varias palabras o espacios en blanco**.
 - `if %variable%==Hola` - Comprueba si `%variable%` tiene el valor `Hola`.
 
+
 ## Parámetros
 Los parámetros de una función pueden ser observados con **%1, %2, ..., %9**.
 > **Nota:** Puedes obtener la lista de parámetros utilizando %*
 
+
 ## &&
 En ocasiones queremos que cuando se haya realizado una acción de forma satisfactoria, se ejecute algo de código. Eso lo podemos lograr con **&&**:
 > **Ejemplo:** `findstr /i /c:hola hola.txt > Nul && echo He encontrado lo que buscabas!`
+
+
+## Añadir un nuevo comando a CMD
+Para añadir un nuevo comando (a partir de otros existentes) hay múltiples formas de hacerlo, pero vamos a ver dos de ellas.
+- Crear un nuevo `.bat` en system32 (o cualquier carpeta incluída dentro del PATH).
+- Crear un nuevo `.bat` en cualquier lugar y añadir esa carpeta al PATH.
+
+Veamos un ejemplo sencillo; programar un apagado.
+La orden para programar un apagado del equipo es `shutdown -s -t TIEMPO` donde el tiempo se escribe en segundos.
+
+Por ejemplo, `shutdown -s -t 1800` apagará el ordenador dentro de media hora.
+
+Si deseo crear un comando llamado `apagar` al que yo pueda pasarle un determinado número de segundos y, una vez transcurrido ese tiempo apague el ordenador, bastará con crear el archivo `apagar.bat` dentro de system32 e introducir el script que me permitiese apagar el equipo al yo hacer la llamada `apagar 1800` en CMD.
