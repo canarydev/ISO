@@ -78,7 +78,7 @@ En ocasiones queremos que cuando se haya realizado una acción de forma satisfac
 ## Añadir un nuevo comando a CMD
 Para añadir un nuevo comando (a partir de otros existentes) hay múltiples formas de hacerlo, pero vamos a ver dos de ellas.
 - Crear un nuevo `.bat` en system32 (o cualquier carpeta incluída dentro del PATH).
-- Crear un nuevo `.bat` en cualquier lugar y añadir esa carpeta al PATH.
+- Crear un nuevo `.bat` en cualquier lugar y añadir esa carpeta (o el archivo) al PATH.
 
 
 > Veamos un ejemplo sencillo; programar un apagado.
